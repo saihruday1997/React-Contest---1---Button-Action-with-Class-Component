@@ -2,13 +2,9 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-    state = {
-      display: false;
-    }
-  }
+  state = {
+    display: false
+  };
 
   render() {
     return (
