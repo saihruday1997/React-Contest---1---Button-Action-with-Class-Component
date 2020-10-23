@@ -1,7 +1,7 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import "../styles/App.css";
 
-class App extends Component {
+class App extends React.Component {
   state = {
     display: false
   };
